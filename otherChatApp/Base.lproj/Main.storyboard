@@ -62,6 +62,16 @@
                     <view key="view" contentMode="scaleToFill" id="r8t-gh-y4z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nio-Wt-rhW">
+                                <rect key="frame" x="0.0" y="6" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="CW9-JV-iFb">
+                                        <barButtonItem key="rightBarButtonItem" title="Spanish" id="TTH-k4-ana"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" red="0.061619503094181738" green="0.1540595988000783" blue="0.40182557397959184" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

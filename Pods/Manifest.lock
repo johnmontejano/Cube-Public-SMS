@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (3.4.1)
   - Firebase (3.2.1):
     - Firebase/Core (= 3.2.1)
   - Firebase/Analytics (3.2.1):
@@ -33,15 +34,19 @@ PODS:
   - JSQMessagesViewController (7.3.3):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
+  - Alamofire
   - Firebase
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
   - JSQMessagesViewController
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
   Firebase: 6c80ac28d59d06bfd9152a7b6ea17625ca93183d
   FirebaseAnalytics: 6f75b04e6bfb8e0b6e9ef298e04c24eea3b13863
   FirebaseAuth: 94b851fc345ce98036dfedfdc2eddeaef8fa3b4c
@@ -53,7 +58,8 @@ SPEC CHECKSUMS:
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
   JSQMessagesViewController: 0ee3f80237268192a3e8337fd0d787f1a1bf5a7a
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: bddb1d3de903c4c0938265cf5d7182a8ec0f612c
+PODFILE CHECKSUM: fa7d68914708eceb819f2df63706740436df2335
 
 COCOAPODS: 1.0.1
