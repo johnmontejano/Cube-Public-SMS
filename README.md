@@ -1,1 +1,1 @@
-# Cube-Public-SMS
+# PublicSMS
