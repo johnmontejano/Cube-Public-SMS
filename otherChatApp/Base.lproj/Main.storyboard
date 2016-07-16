@@ -23,21 +23,27 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cube" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gv1-bg-0Iy">
-                                <rect key="frame" x="119" y="105" width="137" height="21"/>
+                                <rect key="frame" x="119" y="105" width="137" height="70"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.87017697704081631" green="0.87017697704081631" blue="0.87017697704081631" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-simplicity is the ultimate sophistication" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAA-0Y-hOR">
+                                <rect key="frame" x="67" y="195" width="241" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
+                                <color key="textColor" red="0.77907764668367352" green="0.77907764668367352" blue="0.77907764668367352" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytB-Gu-0TR">
-                                <rect key="frame" x="126" y="499" width="123" height="30"/>
-                                <color key="backgroundColor" red="0.55150951711686824" green="0.83341663912712305" blue="0.8987165178571429" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Enter Message"/>
+                                <rect key="frame" x="112" y="490" width="150" height="30"/>
+                                <color key="backgroundColor" red="0.28940218974560666" green="0.24150663647907189" blue="0.69638871173469397" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Enter A Chat Room💯"/>
                                 <connections>
                                     <action selector="enterChatButtonStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wlm-Ju-xuv"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.4816948726246516" green="0.80738513476595797" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.14778785223630481" green="0.14680317297570045" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="6Zy-cu-30m"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -62,16 +68,6 @@
                     <view key="view" contentMode="scaleToFill" id="r8t-gh-y4z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nio-Wt-rhW">
-                                <rect key="frame" x="0.0" y="6" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="Title" id="CW9-JV-iFb">
-                                        <barButtonItem key="rightBarButtonItem" title="Spanish" id="TTH-k4-ana"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
                         <color key="backgroundColor" red="0.061619503094181738" green="0.1540595988000783" blue="0.40182557397959184" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
