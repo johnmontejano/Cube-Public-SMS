@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G24b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dDr-mN-5uh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G24b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ShM-Kj-RzV">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5jk-of-GeC">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5jk-of-GeC">
                                 <rect key="frame" x="20" y="367" width="335" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -29,14 +29,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-simplicity is the ultimate sophistication" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAA-0Y-hOR">
-                                <rect key="frame" x="67" y="210" width="241" height="21"/>
+                                <rect key="frame" x="67" y="195" width="241" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
                                 <color key="textColor" red="0.77907764668367352" green="0.77907764668367352" blue="0.77907764668367352" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytB-Gu-0TR">
-                                <rect key="frame" x="66" y="478" width="243" height="30"/>
-                                <color key="backgroundColor" red="0.56843901380977746" green="0.22902267819789796" blue="0.69638871173469397" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="112" y="490" width="150" height="30"/>
+                                <color key="backgroundColor" red="0.28940218974560666" green="0.24150663647907189" blue="0.69638871173469397" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Enter A Chat Room💯"/>
                                 <connections>
                                     <action selector="enterChatButtonStart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wlm-Ju-xuv"/>
@@ -50,62 +50,50 @@
                     <connections>
                         <outlet property="enterChatButton" destination="ytB-Gu-0TR" id="7Fj-BO-wtQ"/>
                         <outlet property="nickNameTextField" destination="5jk-of-GeC" id="ZPb-x4-sFC"/>
-                        <segue destination="Tqu-2Q-qge" kind="show" identifier="startChatting" action="showDetailViewController:sender:" id="efc-2w-eSY"/>
+                        <segue destination="Ixt-PR-ymK" kind="show" identifier="startChatting" id="efc-2w-eSY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1762.5" y="377.5"/>
+            <point key="canvasLocation" x="950.5" y="377.5"/>
         </scene>
         <!--Chat View Controller-->
         <scene sceneID="o8T-Bp-7QV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kIu-yY-kgw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Ixt-PR-ymK" customClass="ChatViewController" customModule="otherChatApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="L7E-hx-HoZ"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u22-Cb-7zr"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zuq-ZN-mCx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="r8t-gh-y4z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.061619503094181738" green="0.1540595988000783" blue="0.40182557397959184" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kIu-yY-kgw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2943.5" y="376.5"/>
+            <point key="canvasLocation" x="1403.5" y="377.5"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Y1X-hf-fa4">
+        <scene sceneID="DGm-rX-9zR">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dDr-mN-5uh" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ShM-Kj-RzV" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DuC-sd-9Jh">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ebs-dW-eFO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IM5-DO-r0w"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="db9-D0-qaP"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vdz-e1-JeV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Det-EO-GkT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="950" y="377"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="tG8-Vt-4ti">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tqu-2Q-qge" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WGF-Zn-exj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Ixt-PR-ymK" kind="relationship" relationship="rootViewController" id="na3-A9-Ej5"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uHj-5y-way" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2356.5" y="376.5"/>
+            <point key="canvasLocation" x="138" y="377"/>
         </scene>
     </scenes>
 </document>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "34C0D3BD0F6D594675BE6EB11616DF3E2DDFD482",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "34C0D3BD0F6D594675BE6EB11616DF3E2DDFD482" : 0,
+    "F42B90B0807DD9A04C44584C0F630D06EF786B57" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "35A85A89-16EA-4DF7-A9A9-87DE567A6717",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "34C0D3BD0F6D594675BE6EB11616DF3E2DDFD482" : "otherChatApp\/",
+    "F42B90B0807DD9A04C44584C0F630D06EF786B57" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "otherChatApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "otherChatApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/johnmontewhat\/Cube-Public-SMS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34C0D3BD0F6D594675BE6EB11616DF3E2DDFD482"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/johnmontewhat\/PublicSMS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F42B90B0807DD9A04C44584C0F630D06EF786B57"
+    }
+  ]
+}
