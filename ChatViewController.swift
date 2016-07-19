@@ -1,10 +1,14 @@
-//
-//  ChatViewController.swift
-//  otherChatApp
-//
-//  Created by John Montejano on 7/13/16.
-//  Copyright © 2016 John Montejano. All rights reserved.
-//
+////
+////  ChatViewController.swift
+////  otherChatApp
+////
+////  Created by John Montejano on 7/13/16.
+////  Copyright © 2016 John Montejano. All rights reserved.
+////
+
+
+
+
 
 import UIKit
 import JSQMessagesViewController
@@ -91,14 +95,14 @@ class ChatViewController: JSQMessagesViewController, UIImagePickerControllerDele
         
         
         
-
+        
         
         
         let msg = JSQMessage(senderId: senderId, senderDisplayName: senderDisplayName, date: date, text: text)
         
         if self.avatar[senderId] == nil {
             self.setupAvatarColor(msg.senderId, name: msg.senderDisplayName, incoming: true)
-        
+            
         }
         
         
@@ -157,7 +161,7 @@ class ChatViewController: JSQMessagesViewController, UIImagePickerControllerDele
                     
                     self.finishSendingMessageAnimated(true)
                     
-                
+                    
                     
                     // Do what you need to with JSON here!
                     // The rest is all boiler plate code you'll use for API requests
@@ -167,11 +171,11 @@ class ChatViewController: JSQMessagesViewController, UIImagePickerControllerDele
                 print(error)
             }
         }
-
         
         
         
-    
+        
+        
     }
     
     //MARK: UIcollectionView new methods
@@ -233,5 +237,6 @@ class ChatViewController: JSQMessagesViewController, UIImagePickerControllerDele
     }
     
 }
+
 
 
