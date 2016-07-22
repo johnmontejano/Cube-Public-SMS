@@ -54,12 +54,12 @@ class ChatViewController: JSQMessagesViewController, UIImagePickerControllerDele
         self.outgoingBubble = bubbleFactory.outgoingMessagesBubbleImageWithColor(UIColor.jsq_messageBubbleRedColor())
         self.incomingbubbleImage = bubbleFactory.outgoingMessagesBubbleImageWithColor(UIColor.jsq_messageBubbleBlueColor())
         
-       //        button.frame = CGRectMake(100, 100, 100, 50)
-//        button.backgroundColor = UIColor.greenColor()
-//        button.setTitle("Button", forState: UIControlState.Normal)
-//        self.view.addSubview(button)
+        //        button.frame = CGRectMake(100, 100, 100, 50)
+        //        button.backgroundColor = UIColor.greenColor()
+        //        button.setTitle("Button", forState: UIControlState.Normal)
+        //        self.view.addSubview(button)
         
-
+        
         ref.child("PublicChatRoom").observeEventType(.ChildAdded) { (snapshot: FIRDataSnapshot) in
             let info = snapshot.value! as! NSDictionary
             
@@ -86,7 +86,7 @@ class ChatViewController: JSQMessagesViewController, UIImagePickerControllerDele
     
     func translateToEnglish() {
         
-//        var senderId = ""
+        //        var senderId = ""
         let text = inputToolbar.contentView.textView.text
         let date = NSDate()
         
@@ -125,6 +125,11 @@ class ChatViewController: JSQMessagesViewController, UIImagePickerControllerDele
         
         
         // what does this line do?
+//        var address = "á, ó, ñ,"
+//        var escapeAccents = address.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
+//        
+
+
         let apiToContact = "https://www.googleapis.com/language/translate/v2?key=AIzaSyDDTV4qnVy3CK0CwtXLG0h1HYrtKmIWM8c&q=\(messageForURL)&source=es&target=en"
         
         // This code will call the google translate api
@@ -164,7 +169,7 @@ class ChatViewController: JSQMessagesViewController, UIImagePickerControllerDele
             }
         }
     }
-
+    
     //english
     func translateMessageToEnglish (button: UIBarButtonItem!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: NSDate! ) {
         
@@ -409,15 +414,6 @@ class ChatViewController: JSQMessagesViewController, UIImagePickerControllerDele
         self.imagePicker.mediaTypes = [kUTTypeImage as String]
         self.presentViewController(self.imagePicker, animated: true, completion: nil )
     }
-
+    
     
 }
-
-
-
-
-
-
-
-
-
