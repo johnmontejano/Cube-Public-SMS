@@ -1,6 +1,6 @@
 ////
 ////  ChatViewController.swift
-////  otherChatApp
+////  cube
 ////
 ////  Created by John Montejano on 7/13/16.
 ////  Copyright © 2016 John Montejano. All rights reserved.
@@ -15,9 +15,9 @@ import JSQMessagesViewController
 import MobileCoreServices
 import Firebase
 import FirebaseDatabase
-import FirebaseAuth
 import SwiftyJSON
 import Alamofire
+import FirebaseAuth
 
 
 
